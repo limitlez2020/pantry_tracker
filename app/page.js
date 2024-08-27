@@ -211,6 +211,10 @@ export default function Home() {
           const storageRef = ref(storage, `inventory_images/${itemName}`);
           await deleteObject(storageRef);
         }
+        /* Update the inventory state to reflect changes: */
+        setInventory(prevInventory =>
+          prevInventory.filter(item => item.name !== itemName)
+        );
       } else {
         await setDoc(docRef, { quantity: quantity - 1 }, { merge: true });
 
