@@ -1,37 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pantry Tracker
 
-## Getting Started
+A Next.js web application designed to serve as both an inventory management system for users' kitchens and a recipe suggester that provides meal ideas based on the items in the user's pantry.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Pantry Tracker allows users to efficiently manage their kitchen inventory by adding, deleting, and updating pantry items. The application also features a recipe suggestion system that recommends recipes based on the contents of the pantry, utilizing the EDAMAM API. The project is built with a Firebase backend for data storage, deployed on Vercel, and includes CI/CD for seamless updates.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Inventory Management**:
+  - Add, delete, and update pantry items with ease.
+  - Upload images of pantry items directly within the web app.
+  - Search or filter functionality to easily find specific items.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Recipe Suggestions**:
+  - Suggests recipes based on the current contents of the user's pantry using the EDAMAM API.
 
-## Learn More
+- **Presentable Frontend**:
+  - Clean and user-friendly interface to display all pantry items, built with Material UI and Tailwind CSS.
 
-To learn more about Next.js, take a look at the following resources:
+- **Deployment**:
+  - Deployed on Vercel with CI/CD setup for continuous integration and deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Next.js**: For building the server-side rendered React application.
+- **Firebase**: Backend service for data storage and management.
+- **Node.js**: For handling backend logic.
+- **Vercel**: For deploying the web app with continuous integration and deployment.
+- **Material UI**: For the user interface components.
+- **Tailwind CSS**: For styling the web application.
+- **EDAMAM API**: For fetching recipe suggestions based on pantry items.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Link: https://fortune-pantry-tracker.vercel.app/
+- **Manage Pantry Items**: Users can easily add new items to their pantry, update existing items, or delete items they no longer have. The app allows for image uploads to visually represent pantry items.
+- **Search and Filter**: Quickly locate specific items in the pantry using the search and filter functionalities.
+- **Get Recipe Suggestions**: Based on the items currently in the pantry, the app will suggest various recipes for breakfast, lunch, and dinner at the bottom of the screen, helping users make the most of what they have.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# pantry_tracker" 
+
+## Authors
+
+- David Fortune Akinremi (moi 🙈)
