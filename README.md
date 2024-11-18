@@ -34,7 +34,7 @@ The Pantry Tracker allows users to efficiently manage their kitchen inventory by
 
 ## Usage
 
-Link: https://fortune-pantry-tracker.vercel.app/
+Link: https://my-meal-planner.vercel.app/
 - **Manage Pantry Items**: Users can easily add new items to their pantry, update existing items, or delete items they no longer have. The app allows for image uploads to visually represent pantry items.
 - **Search and Filter**: Quickly locate specific items in the pantry using the search and filter functionalities.
 - **Get Recipe Suggestions**: Based on the items currently in the pantry, the app will suggest various recipes for breakfast, lunch, and dinner at the bottom of the screen, helping users make the most of what they have.
