@@ -513,7 +513,7 @@ export default function Home() {
                        border-[#111111] rounded-none h-10 w-full px-3
                        hover:border-r-[4px] hover:border-b-[4px]"
           >
-            Quick Recipes
+            Get Recipes
           </button>
         </div>
         }
