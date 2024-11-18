@@ -448,10 +448,13 @@ export default function Home() {
                     <div className="flex flex-col p-2 border-2 border-[#333] w-[240px]">
                       {/* Display Image in Inventory */}
                       {item.imageUrl ? (
-                        <img
+                        <Image
                           src={item.imageUrl}
                           alt={item.name}
-                          className="w-full h-[200px]"
+                          width={240} // Set the width
+                          height={200} // Set the height
+                          loading="lazy" // Lazy load the image
+                          className="w-full h-[200px]" // Retain your styling
                         />
                       ) : (
                         <div className="w-full h-[200px] flex justify-center items-center
